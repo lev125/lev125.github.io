@@ -1,0 +1,111 @@
+html {
+	font-family: 'Rubik', sans-serif;
+}
+
+header {
+	height: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+#title_t {
+	margin-left: 3%;
+	margin-right: 3%;
+	/*background-color: rgba(255, 255, 255, 0.5);*/
+	background-image: url(img/footer1.jpg);
+	background-size: cover;
+	background-position: center;
+	border-radius: 10px;
+	text-align: center;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#title_txt {
+	border-radius: 10px;
+	background-color: rgba(255, 255, 255, 0.8);
+	display: inline-block;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	font-weight: 400;
+}
+
+#titlemood {
+	font-size: 48px;
+}
+
+#titlesait {
+	font-size: 22px;
+}
+
+.photo {
+	/*margin-left: 30%;
+	margin-right: 30%;*/
+	text-align: center;
+}
+.title_p {
+	padding: 4px;
+}
+
+body {
+	/*background-image: url('https://w-dog.ru/wallpapers/15/15/489265459879855.jpg');*/
+	background-color: #7AACD1;
+	background-size: 240%;
+	margin: 0;
+}
+
+#gal {
+	background-color: rgba(255, 255, 255, 0.5);
+	border-radius: 10px;
+	text-align: center;
+	margin-left: 35%;
+	margin-right: 35%;
+}
+
+.time {
+	background-color: rgba(255, 255, 255, 0.5);
+	border-radius: 10px;
+	padding: 2px;
+}
+
+/*.title_p {
+	font-size: 20px;
+	background-color: rgba(29, 91, 146, 0.5);
+	border-radius: 0 7px 7px 0;
+	display: inline-block;
+	margin-top: 5px;
+	border: 1px;
+	border-style: dotted;
+	border-left: none;
+}*/
+
+.tit {
+	background-color: rgba(255, 255, 255, 0.5);
+	border-radius: 10px;
+	margin-bottom: 7px;
+	font-weight: 300;
+}
+
+.imgs {
+	height: 350px;
+	align-self: center;
+	margin: 0;
+	border-radius: 5px;
+}
+
+.post {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	background-color: rgba(255, 255, 255, 0.5);
+	/*margin-left: 30%;
+	margin-right: 30%;*/
+	border-radius: 10px;
+	overflow: hidden;
+	align-self: center;
+	padding: 7px;
+	margin-bottom: 30px;
+
+}
+#Galery {
+	padding-left: 15%;
+	padding-right: 15%;
+}
