@@ -22,7 +22,7 @@ header {
 
 #title_txt {
 	border-radius: 10px;
-	background-color: rgba(255, 255, 255, 0.8);
+	background-color: rgba(255, 255, 255, 0.9);
 	display: inline-block;
 	margin-top: 10px;
 	margin-bottom: 10px;
@@ -31,11 +31,9 @@ header {
 }
 
 #titlemood {
-	font-size: 48px;
-}
-
-#titlesait {
-	font-size: 22px;
+	font-size: 60px;
+	margin: 20px;
+	/*color: #FFBD59;*/
 }
 
 .photo {
@@ -43,8 +41,10 @@ header {
 	margin-right: 30%;*/
 	text-align: center;
 }
+
 .title_p {
 	padding: 4px;
+	font-size: 20px;
 }
 
 body {
@@ -66,6 +66,7 @@ body {
 	background-color: rgba(255, 255, 255, 0.5);
 	border-radius: 10px;
 	padding: 2px;
+	font-size: 18px;
 }
 
 /*.title_p {
