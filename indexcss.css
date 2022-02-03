@@ -88,7 +88,7 @@ body {
 }
 
 .imgs {
-	height: 350px;
+	height: 500px;
 	align-self: center;
 	margin: 0;
 	border-radius: 5px;
@@ -104,9 +104,11 @@ body {
 	align-self: center;
 	padding: 7px;
 	margin-bottom: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: fit-content;
 
 }
+
 #Galery {
-	padding-left: 15%;
-	padding-right: 15%;
 }
