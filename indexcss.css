@@ -94,10 +94,10 @@ body {
 }
 
 .imgs {
-	height: 380px;
 	align-self: center;
 	margin: 0;
 	border-radius: 5px;
+	width: -webkit-fill-available;
 }
 
 .post {
@@ -112,9 +112,57 @@ body {
 	margin-bottom: 30px;
 	margin-left: auto;
 	margin-right: auto;
-	max-width: min-content;
+	width: 90%;
+	max-width: 550px;
 
 }
 
-#Galery {
+.download_section {
+    display: flex;
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+    flex-direction: row;
+    background-color: rgba(255, 255, 255, 0.75);
+    border-radius: 10px;
+    margin-top: 2px;
+}
+
+.icon {
+	width: 15%;
+	background-color: #FFFFFF;
+    border-radius: 10px;
+}
+
+.link_container {
+    font-size: 24px;
+    width: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+a {
+	outline: none;
+	text-decoration: none;
+}
+
+
+a:link {
+	color: #FF0000;
+}
+
+a:visited {
+	color: #DD0000;
+}
+
+a:focus {
+	background: #FF00002C;
+}
+
+a:hover {
+	background: #FF00002C;
+	border-radius: 5px;
+}
+
+a:active {
 }
