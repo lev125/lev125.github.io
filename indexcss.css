@@ -12,12 +12,12 @@ header {
 	margin-left: 3%;
 	margin-right: 3%;
 	/*background-color: #D39C4A;*/
-	/*background-image: url(img/header1.jpg);*/
+	background-image: url(img/header1.jpg);
 	background-size: cover;
 	background-position: center;
 	border-radius: 10px;
 	text-align: center;
-	/*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 #title_txt {
@@ -25,7 +25,7 @@ header {
 	background-color: #FFFFFF;
 	display: inline-block;
 	margin-top: 10px;
-	margin-bottom: 1px;
+	margin-bottom: 10px;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	font-weight: 400;
 }
@@ -49,7 +49,7 @@ header {
 
 body {
 	/*background-image: url('https://w-dog.ru/wallpapers/15/15/489265459879855.jpg');*/
-	background-color: #250F6E;
+	background-color: #7AACD1;
 	background-size: 240%;
 	margin: 0;
 }
